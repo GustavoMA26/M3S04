@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/ratebooksdb}
+    username: ${DB_USERNAME:postgres}
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
